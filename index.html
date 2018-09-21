@@ -9,17 +9,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome to Hogwarts!</h1>
-            <p class="lead">I am the magical sorting hat app!! I'll be telling you what house you will be placed into. Now you'll surely be wondering "Well, how is that hat app going to determine my house??" Well, you have nothing to fear! For my sorting magic will observe your heart, your personality and your mind. And thus you shall be placed accordingly! There is no randomizer in place on this app, for this is a magical sorting hat app!</p>
-            <hr class="my-4">
-            <p>Let us commence the culling - I mean, sorting! </p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Let's sort!</a>
-            </p>
-        </div>
-        
-        
+    <div class="jumbotron mt-3">
+        <h1 class="display-5">Welcome to Fake Hogwarts!</h1>
+        <p class="lead">This is the magical sorting hat app!! Students are analyzed by their heart, personality, and mind,
+            and then sorted into houses accordingly. There is no randomizer in place on this app, for this is a <strong><em>magical</em></strong>
+            sorting hat app!</p>
+        <hr class="my-4">
+        <p>Words words words words words words words</p>
+        <button type="button" id="formButton" class="btn btn-primary">Let's start sorting!</button>
+    </div>
+    <div id="form" class="card border-dark d-none">
+        <h4 class="ml-3 mt-2">Enter First Year's Name</h4>
+        <form class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+                <p>Student:</p>
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputName" class="sr-only">Student Name</label>
+                <input type="password" class="form-control" id="inputName" placeholder="Mundungus Amungus">
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm">Sort!</button>
+        </form>
+    </div>
+
+    <div id="form-card"></div>
+    <div id="house-cards" class="d-flex flex-wrap"></div>
+
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
