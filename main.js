@@ -37,18 +37,21 @@ sortFormCard = () => {
 const houseCardBuilder = (name) => {
     let randomizer = Math.floor((Math.random() * hogwarts.length));
     let house = hogwarts[randomizer];
-    let domString = 
-        `<div class="card d-flex row justify-content-center w-25 m-2">
+    let domString =    
+        `<div class="card d-flex row border-dark m-2" style="width: 18rem;">
             <div class="card-body justify-content-center" id="card">
                 <h5 class="name text-center">${name}</h5>
                 <p class="card-text text-center">${house}</p>
-                <button href="#" class="expel btn btn-danger deleteButton">Expel</button>
+                <button href="#" class="expel btn border-dark btn-light deleteButton">Expel</button>
             </div>
         </div>`;
     counter ++;
     printToDom(domString, 'house-cards');
     expelled();
 };
+
+ 
+
 
 // Button Event listeners
 document.getElementById('formButton').addEventListener("click", sortFormCard);

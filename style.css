@@ -3,4 +3,13 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    border-color: black;
+}
+
+.expel {
+    background-color: lightgray;
+}
+
+.sort {
+    background-color: lightgray;
 }
