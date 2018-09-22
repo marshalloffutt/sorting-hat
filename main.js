@@ -18,10 +18,10 @@ sortFormCard = () => {
 const houseCardBuilder = (name) => {
     let randomizer = Math.floor((Math.random() * hogwarts.length));
     let house = hogwarts[randomizer];
-    let domString = `<div class="card w-25 m-2">
-  <div class="card-body">
-    <h5 class="name">${name}</h5>
-    <p class="card-text">${house}</p>
+    let domString = `<div class="card d-flex row justify-content-center w-25 m-2">
+  <div class="card-body justify-content-center" id="card">
+    <h5 class="name text-center">${name}</h5>
+    <p class="card-text text-center">${house}</p>
     <button href="#" class="btn btn-danger deleteButton">Expel</button>
   </div>
 </div>`;
