@@ -18,7 +18,7 @@ hs -p 9999
 ```
 localhost: 9999
 ```
-* Click the button to begin the sorting.
-* Type student name into the input field.
+* Click the 'Let's start sorting' button to reveal the form.
+* On the form, type student name into the input field.
 * Click the sort button.
-* Observe the result.
+* Observe the results.
