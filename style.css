@@ -1,3 +1,6 @@
-body {
-    background-color: white;
+/* Because Bootstrap is being a jerk */
+#card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
