@@ -13,3 +13,23 @@
 .sort {
     background-color: lightgray;
 }
+
+.Gryffindor {
+    background-color: darkred;
+    color: gold;
+}
+
+.Slytherin {
+    background-color: teal;
+    color: silver;
+}
+
+.Ravenclaw {
+    background-color: navy;
+    color: rgb(146, 141, 113);
+}
+
+.Hufflepuff {
+    background-color: rgb(228, 228, 62);
+    color: #333;
+}

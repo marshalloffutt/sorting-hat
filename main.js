@@ -45,7 +45,7 @@ const houseCardBuilder = (name) => {
     let house = hogwarts[randomizer];
     let domString =    
         `<div class="card d-flex row border-dark m-2" style="width: 18rem;">
-            <div class="card-body justify-content-center" id="card">
+            <div class="card-body justify-content-center ${house}" id="card">
                 <h5 class="name text-center">${name}</h5>
                 <p class="card-text text-center">${house}</p>
                 <button href="#" class="expel btn border-dark btn-light deleteButton">Expel</button>
