@@ -15,8 +15,6 @@ let counter = 0;
 // Activate Expel Button
 const expelled = () => {
     const expelButtons = document.getElementsByClassName('expel');
-    console.log(expelButtons);
-  
     for (let i = 0; i < expelButtons.length; i++) {
       const element = expelButtons[i];
       element.addEventListener("click", (e) => {
@@ -56,12 +54,9 @@ const houseCardBuilder = (name) => {
     expelled();
 };
 
- 
-
-
 // Button Event listeners
 document.getElementById('formButton').addEventListener("click", sortFormCard);
 document.getElementById('sortButton').addEventListener("click", (e) => {
     e.preventDefault();
     houseCardBuilder(yerAWizard.value);
-});
+})
