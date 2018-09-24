@@ -35,6 +35,12 @@ sortFormCard = () => {
 
 // House Card Builder
 const houseCardBuilder = (name) => {
+    if (document.getElementById('inputName').value.length == 0) {
+        document.getElementById('validationMessage').innerHTML = "Please enter a name";
+        return false;
+    } else {
+        document.getElementById('validationMessage').innerHTML = '';
+    };
     let randomizer = Math.floor((Math.random() * hogwarts.length));
     let house = hogwarts[randomizer];
     let domString =    
