@@ -4,9 +4,10 @@
 This Harry Potter universe-themed app uses a randomizer function to randomly assign one of the Hogwarts houses to perspective new students. This app serves as practice for Bootstrap, conditional styling, and math functions in vanilla JavaScript.
 
 ## Screenshots
-![main screen shot](./screenshots/sorting.png)
+![main screen shot](./screenshots/snap.png)
 
 ## How to run this project
+* Clone this repository to your local machine.
 * Use npm to install http-server in your terminal:
 ```sh
 npm install -g http-server
