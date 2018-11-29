@@ -1,6 +1,7 @@
 # Sorting Hat
 
-Sorting hat app exercise that makes use of event listeners, and also introduces us to Bootstrap 4 for basic styling.
+## Description
+This Harry Potter universe-themed app uses a randomizer function to randomly assign one of the Hogwarts houses to perspective new students. This app serves as practice for Bootstrap, conditional styling, and math functions in vanilla JavaScript.
 
 ## Screenshots
 ![main screen shot](./screenshots/sorting.png)
@@ -18,7 +19,3 @@ hs -p 9999
 ```
 localhost: 9999
 ```
-* Click the 'Let's start sorting' button to reveal the form.
-* On the form, type student name into the input field.
-* Click the sort button.
-* Observe the results.
